@@ -33,15 +33,17 @@ EXTRAS_REQUIRE = {
 
 
 setup(
-    name="marshmallow-jsonschema",
-    version="0.13.0",
-    description="JSON Schema Draft v7 (http://json-schema.org/)"
-    " formatting with marshmallow",
+    name="marshmallow-jsonschema-2",
+    version="1.0.0",
+    description=(
+        "JSON Schema Draft v7 (http://json-schema.org/) "
+        "formatting with marshmallow."
+    ),
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="Stephen Fuhry",
-    author_email="fuhrysteve@gmail.com",
-    url="https://github.com/fuhrysteve/marshmallow-jsonschema",
+    author="Jacob Chesslo",
+    author_email="jacobchesslo@gmail.com",
+    url="https://github.com/jacobchesslo/marshmallow-jsonschema-2",
     packages=find_packages(exclude=("test*",)),
     package_dir={"marshmallow-jsonschema": "marshmallow-jsonschema"},
     include_package_data=True,
@@ -54,7 +56,7 @@ setup(
         "marshmallow-jsonschema marshmallow schema serialization "
         "jsonschema validation"
     ),
-    python_requires=">=3.6",
+    python_requires=">=3.8",
     classifiers=[
         "Intended Audience :: Developers",
         "License :: OSI Approved :: MIT License",
