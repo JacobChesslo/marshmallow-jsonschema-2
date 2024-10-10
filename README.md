@@ -1,10 +1,12 @@
-## marshmallow-jsonschema: JSON Schema formatting with marshmallow
+## marshmallow-jsonschema-2: JSON Schema formatting with marshmallow
 
-![Build Status](https://github.com/fuhrysteve/marshmallow-jsonschema/workflows/build/badge.svg)
+![Build Status](https://github.com/jacobchesslo/marshmallow-jsonschema-2/workflows/build/badge.svg)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 
  marshmallow-jsonschema translates marshmallow schemas into
  JSON Schema Draft v7 compliant jsonschema. See http://json-schema.org/
+
+marshmallow-jsonschema-2 is a fork of [marshmallow-jsonschema](https://github.com/fuhrysteve/marshmallow-jsonschema), which hasn't been updated for a while.
 
 #### Why would I want my schema translated to JSON?
 
@@ -15,10 +17,10 @@ or mobile device).
 
 #### Installation
 
-Requires python>=3.6 and marshmallow>=3.11. (For python 2 & marshmallow 2 support, please use marshmallow-jsonschema<0.11)
+Requires python>=3.8 and marshmallow>=3.11.
 
 ```
-pip install marshmallow-jsonschema
+pip install marshmallow-jsonschema-2
 ```
 
 #### Some Client tools can render forms using JSON Schema
